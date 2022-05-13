@@ -49,7 +49,6 @@ public class ControllerAcountBalance {
     @GetMapping("/test")
     public String test(){
         log.info("test Log");
-        sendMail();
         return "testLog" ;
     }
 
